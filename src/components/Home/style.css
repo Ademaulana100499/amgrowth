@@ -1,0 +1,132 @@
+/* HOME */
+.home__container {
+  row-gap: 2rem;
+  padding-top: 1rem;
+}
+
+.home__img {
+  width: 350px;
+  justify-self: center;
+  mask-image: linear-gradient(
+    to bottom,
+    hsla(var(--hue), 40%, 16%) 60%,
+    transparent 100%
+  );
+}
+.home__name {
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-bold);
+  word-break: break-word;
+  margin-bottom: 1rem;
+}
+.home__profession {
+  position: relative;
+  font-size: var(--big-font-size);
+  color: var(--text-color);
+}
+.home__profession::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  width: 25%;
+  height: 3px;
+  background-color: var(--text-color);
+}
+.home__scroll {
+  color: var(--title-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  justify-self: center;
+  margin-top: 3rem;
+}
+.home__scroll-box {
+  background-color: var(--first-color);
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+
+.home__scroll-text {
+  font-weight: var(--font-semi-bold);
+}
+.home__scroll-box i {
+  animation: scroll-down 3s infinite;
+}
+/* animation scroll icon */
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0.6rem);
+    opacity: 0;
+  }
+}
+
+/* BREAKPOINTS */
+
+/* For small devices */
+@media screen and (max-width: 300px) {
+  .container {
+    margin-inline: 1rem;
+  }
+  .skills__content {
+    grid-template-columns: repeat(2, max-content);
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 540px) {
+  .home__container {
+    grid-template-columns: 350px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home__container {
+    grid-template-columns: repeat(2, 350px);
+  }
+  .home__data {
+    align-self: flex-end;
+    padding-bottom: 3rem;
+    order: -1;
+  }
+  .home__scroll {
+    grid-column: 1/3;
+  }
+}
+
+/* for large devices */
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+  .section {
+    padding-block: 7rem 5rem;
+  }
+  .home__container {
+    grid-template-columns: 470px 350px;
+    gap: 3rem 16rem;
+  }
+  .home__img {
+    width: 350px;
+  }
+  .home__name {
+    margin-bottom: 1.5rem;
+  }
+  .home__profession::after {
+    bottom: -1rem;
+    width: 35%;
+  }
+}

@@ -1,0 +1,64 @@
+/* SERVICES */
+.services {
+  background-color: var(--container-color);
+}
+.services__container {
+  row-gap: 2rem;
+}
+
+.services__icon {
+  display: block;
+  color: var(--first-color-light);
+  font-size: 2rem;
+  margin-bottom: 1dvb;
+}
+
+.services__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.75rem;
+}
+
+/* BREAKPOINTS */
+
+/* For small devices */
+@media screen and (max-width: 300px) {
+  .container {
+    margin-inline: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 540px) {
+  .services__container {
+    grid-template-columns: 350px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .services__container {
+    grid-template-columns: repeat(2, 320px);
+  }
+}
+
+/* for large devices */
+@media screen and (min-width: 1150px) {
+  .container {
+    margin-inline: auto;
+  }
+  .section {
+    padding-block: 7rem 5rem;
+  }
+  .section__title {
+    margin-bottom: 4rem;
+  }
+
+  .services__container {
+    grid-template-columns: repeat(2, 350px);
+    gap: 6rem 13rem;
+  }
+  .services__icon {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
