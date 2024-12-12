@@ -11,12 +11,12 @@ export const Footer = (props) => {
             </a>
           </li>
           <li>
-            <a href="#projects" className="footer__link">
+            <a href="#project" className="footer__link">
               {navList[1]}
             </a>
           </li>
           <li>
-            <a href="#my info" className="footer__link">
+            <a href="#info" className="footer__link">
               {navList[2]}
             </a>
           </li>
