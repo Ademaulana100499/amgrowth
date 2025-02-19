@@ -100,7 +100,7 @@ function App() {
       major: "Front-End Web Development",
       date: "09/2024 - 02/2025",
       description:
-        "Learning HTML, CSS, JavaScript, and TypeScript, and utilizing React.js and Next.js to build responsive and high-performance user interfaces. Experienced in UI/UX design slicing, website optimization, and problem-solving algorithms. Skilled in team collaboration using Git/GitHub.",
+        "Learning HTML, CSS, JavaScript, and TypeScript, and utilizing React.js and Next.js to build responsive and high-performance user interfaces. Experienced in UI/UX design slicing, website optimization, and problem-solving algorithms. Skilled in team collaboration using Git/GitHub and committed to continuous learning and staying updated with the latest web technologies.",
     },
     {
       id: 2,

@@ -100,7 +100,7 @@ function App() {
       major: "Front-End Web Development",
       date: "09/2024 - 02/2025",
       description:
-        "Learning HTML, CSS, JavaScript, and TypeScript, and utilizing React.js and Next.js to build responsive and high-performance user interfaces. Experienced in UI/UX design slicing, website optimization, and problem-solving algorithms. Skilled in team collaboration using Git/GitHub.",
+        "Learning HTML, CSS, JavaScript, and TypeScript, and utilizing React.js and Next.js to build responsive and high-performance user interfaces. Experienced in UI/UX design slicing, website optimization, and problem-solving algorithms. Skilled in team collaboration using Git/GitHub and committed to continuous learning and staying updated with the latest web technologies.",
     },
     {
       id: 2,
@@ -126,11 +126,6 @@ function App() {
       id: 3,
       skill: "JavaScript",
       image: "/assets/img/javascript.svg",
-    },
-    {
-      id: 4,
-      skill: "TypeScript",
-      image: "/assets/img/typescript.png",
     },
     {
       id: 4,

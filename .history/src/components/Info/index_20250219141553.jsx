@@ -1,6 +1,6 @@
 import "./style.css";
 export const Info = (props) => {
-  const { imageInfo, biodata, experience, skills, education } = props;
+  const { imageInfo, biodata, experience, skills } = props;
   return (
     <section className="info section" id="my info">
       <h2 className="section__title">MY INFO</h2>
@@ -27,11 +27,11 @@ export const Info = (props) => {
         <div className="experience">
           <h3 className="info__title">Education</h3>
           <div className="grid experience__content">
-            {education.map((item, index) => (
+            {experience.map((item, index) => (
               <div key={index} className="grid experience__data">
-                <h2 className="experience__company">{item.university}</h2>
+                <h2 className="experience__company">{item.company}</h2>
                 <div>
-                  <h3 className="experience__professsion">{item.major}</h3>
+                  <h3 className="experience__professsion">{item.profession}</h3>
                   <span className="experience__date">{item.date}</span>
                   <p className="experience__description">{item.description}</p>
                 </div>

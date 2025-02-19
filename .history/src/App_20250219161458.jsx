@@ -30,9 +30,8 @@ function App() {
       id: 1,
       title: "TandingLapang",
       description:
-        "Final Project - Dibimbing Bootcamp: Tanding Lapang is a platform designed to simplify the search for sparring partners and the organization of sparring events across various sports. Built using HTML, CSS, JavaScript, Tailwind CSS, React.js, and Next.js, this project connects athletes and sports enthusiasts with sparring partners based on location and sport type. It also provides organizers with an efficient way to create and manage sparring events, ensuring a seamless experience.",
+        "Final Project - Dibimbing Bootcamp: Tanding Lapang is a platform designed to simplify the search for sparring partners and the organization of sparring events across various sports. Built using HTML, CSS, JavaScript, Tailwind CSS, React.js, and Next.js, this project connects athletes and sports enthusiasts with sparring partners based on location and sport type. It also provides organizers with an efficient way to create and manage sparring events, ensuring a seamless user experience.",
       image: "/assets/img/tandinglapang.jpg",
-      link: "https://tandinglapang.vercel.app",
     },
     {
       id: 2,
@@ -40,7 +39,6 @@ function App() {
       description:
         "Mini Project - Dibimbing Bootcamp: Foodies is a recipe website that implements CRUD functionality (Create, Read, Update, Delete) using Next.js, TypeScript, Tailwind CSS, HTML, and CSS. This project features API integration, user authentication, and server-side rendering (SSR) to enhance performance, SEO, and user experience. Users can browse, add, edit, and delete recipes easily, making it an interactive and dynamic platform for food enthusiasts.",
       image: "/assets/img/foodies.jpg",
-      link: "https://foodies-delta.vercel.app",
     },
     {
       id: 3,
@@ -48,23 +46,20 @@ function App() {
       description:
         "Mini Project - Dibimbing Bootcamp: Peoplelist is a responsive web platform that displays a list of users using React.js and the Reqres API. Built with HTML, CSS, JavaScript, Tailwind CSS, and REST APIs, it features user registration & login, paginated user listings, and protected routes for enhanced security. This project ensures a seamless user experience while demonstrating authentication and data fetching capabilities.",
       image: "/assets/img/peoplelist.jpg",
-      link: "https://peoplelist-liard.vercel.app",
     },
     {
       id: 4,
       title: "Aroma Hati",
       description:
-        "Mini Project - Dibimbing Bootcamp: Aroma Hati is a promotional website designed to help local cafés establish a strong online presence. Built using HTML, CSS, and Tailwind CSS, it provides a fully responsive layout and visually appealing design to enhance branding. This platform enables cafés to showcase their menus, locations, and unique offerings, making it easier for customers to discover, explore, and connect with their favorite spots.",
+        "Mini Project - Dibimbing Bootcamp: Aroma Hati is a promotional website designed to help local cafés establish an online presence. Built using HTML, CSS, and Tailwind CSS, it provides a responsive layout and visually appealing design to enhance branding. This platform enables cafés to showcase their menus, locations, and unique offerings, making it easier for customers to discover and connect with their favorite spots.",
       image: "/assets/img/aromahati.jpg",
-      link: "https://ademaulana100499.github.io/miniprojectcaffe/index.html",
     },
     {
       id: 5,
-      title: "User Dashboard",
+      title: "Fitness Website",
       description:
-        "Mini Project - Dibimbing Bootcamp: User Dashboard is a web application that provides an interactive interface for managing and displaying user data efficiently. Built using modern web technologies, it features keyword search, gender-based filtering, pagination, sortable table columns, and API fetching to ensure a seamless data management experience. This project enhances usability by allowing users to navigate and interact with data dynamically.",
-      image: "/assets/img/userdashboard.jpg",
-      link: "https://userdashboard-two.vercel.app",
+        "This Fitness website provides users with workout plans, nutrition tips, and progress tracking to help them achieve their fitness goals.",
+      image: "/assets/img/fittnes web.avif",
     },
   ];
   const experience = [
@@ -100,7 +95,7 @@ function App() {
       major: "Front-End Web Development",
       date: "09/2024 - 02/2025",
       description:
-        "Learning HTML, CSS, JavaScript, and TypeScript, and utilizing React.js and Next.js to build responsive and high-performance user interfaces. Experienced in UI/UX design slicing, website optimization, and problem-solving algorithms. Skilled in team collaboration using Git/GitHub.",
+        "Learning HTML, CSS, JavaScript, and TypeScript, and utilizing React.js and Next.js to build responsive and high-performance user interfaces. Experienced in UI/UX design slicing, website optimization, and problem-solving algorithms. Skilled in team collaboration using Git/GitHub and committed to continuous learning and staying updated with the latest web technologies.",
     },
     {
       id: 2,
@@ -126,11 +121,6 @@ function App() {
       id: 3,
       skill: "JavaScript",
       image: "/assets/img/javascript.svg",
-    },
-    {
-      id: 4,
-      skill: "TypeScript",
-      image: "/assets/img/typescript.png",
     },
     {
       id: 4,

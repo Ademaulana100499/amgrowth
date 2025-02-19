@@ -62,7 +62,7 @@ function App() {
       id: 5,
       title: "User Dashboard",
       description:
-        "Mini Project - Dibimbing Bootcamp: User Dashboard is a web application that provides an interactive interface for managing and displaying user data efficiently. Built using modern web technologies, it features keyword search, gender-based filtering, pagination, sortable table columns, and API fetching to ensure a seamless data management experience. This project enhances usability by allowing users to navigate and interact with data dynamically.",
+        "This Fitness website provides users with workout plans, nutrition tips, and progress tracking to help them achieve their fitness goals.",
       image: "/assets/img/userdashboard.jpg",
       link: "https://userdashboard-two.vercel.app",
     },
@@ -100,7 +100,7 @@ function App() {
       major: "Front-End Web Development",
       date: "09/2024 - 02/2025",
       description:
-        "Learning HTML, CSS, JavaScript, and TypeScript, and utilizing React.js and Next.js to build responsive and high-performance user interfaces. Experienced in UI/UX design slicing, website optimization, and problem-solving algorithms. Skilled in team collaboration using Git/GitHub.",
+        "Learning HTML, CSS, JavaScript, and TypeScript, and utilizing React.js and Next.js to build responsive and high-performance user interfaces. Experienced in UI/UX design slicing, website optimization, and problem-solving algorithms. Skilled in team collaboration using Git/GitHub and committed to continuous learning and staying updated with the latest web technologies.",
     },
     {
       id: 2,
@@ -126,11 +126,6 @@ function App() {
       id: 3,
       skill: "JavaScript",
       image: "/assets/img/javascript.svg",
-    },
-    {
-      id: 4,
-      skill: "TypeScript",
-      image: "/assets/img/typescript.png",
     },
     {
       id: 4,

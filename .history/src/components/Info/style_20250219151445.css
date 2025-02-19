@@ -128,7 +128,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .skills__content {
-    grid-template-columns: repeat(5, max-content);
+    grid-template-columns: repeat(6, max-content);
     justify-content: initial;
     column-gap: 4rem;
   }
@@ -181,6 +181,6 @@
     margin-bottom: 1.5rem;
   }
   .skills__content {
-    grid-template-columns: repeat(5, max-content);
+    grid-template-columns: repeat(6, max-content);
   }
 }
